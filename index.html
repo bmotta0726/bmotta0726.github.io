@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Random Songs</title>
+</head>
+<body>
+    <script src="js/links.js"></script>
+    <main class="mainClass">
+        <a href="" id="songLink" target="_blank">
+            <button type="button">GO</button>
+        </a>
+        <script>
+            const contenedor = document.querySelector('.mainClass');
+            
+            let minVal = 0;
+            let maxVal = links.length;
+            let randnum = Math.floor(Math.random() * (maxVal - minVal + 1)) + minVal;
+
+            let linkk = 'https://www.youtube.com/watch?v=' + links[randnum];
+
+            let alink = document.getElementById("songLink") ;
+            alink.href = linkk;
+        </script>        
+    </main>
+</body>
+</html>
