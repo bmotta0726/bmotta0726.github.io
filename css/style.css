@@ -2,11 +2,13 @@ main {
     text-align: center;   
 }
 
-button {
+.buttonContainer {
+    margin: 20px;
+}
 
+.mainButton {
     padding: 40px;
 
-    background-color: limegreen;
     border: none;
     color: whitesmoke;
     border-radius: 50%;
@@ -16,5 +18,114 @@ button {
     font: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
-    
+}
+
+.rowContainer {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 40px 0px;
+}
+
+.songButton {
+    height: 360px;
+    width: 360px;
+
+    box-shadow: 10px 10px 10px gray;
+    border: none;
+    border-radius: 3%;
+
+    font-size: 60px;
+    color: white;
+}
+
+.songButton:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+#euphoria {
+    background-color: rgb(216, 156, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#euphoria:hover {
+    background-color: rgb(162, 115, 6);
+}
+
+#nostalgia {
+    background-color: rgb(7, 7, 92);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+}
+
+#nostalgia:hover {
+    background-color: rgb(2, 2, 35);
+}
+
+#sadness {
+    background-color: rgb(94, 94, 92);
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   
+}
+
+#sadness:hover {
+    background-color: rgb(49, 47, 47);
+}
+
+#joy {
+    background-color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 76px;
+}
+
+#joy:hover {
+    background-color: rgb(2, 79, 79);
+}
+
+#dreaminess {
+    background-color: rgb(100, 8, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+#dreaminess:hover {
+    background-color: rgb(56, 5, 5);
+}
+
+#calm {
+    background-color: rgb(228, 189, 235);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#calm:hover {
+    background-color: rgb(194, 124, 181);
+}
+
+#anxiety {
+    background-color: rgb(1, 24, 1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#anxiety:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#triumph {
+    background-color: gold;    
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#triumph:hover {
+    background-color: darkgoldenrod;
+}
+
+#mindfulness {
+    background-color: rgb(223, 250, 208);
+    color: black;    
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 44px;
+}
+
+#mindfulness:hover {
+    background-color: rgb(112, 208, 114);
 }

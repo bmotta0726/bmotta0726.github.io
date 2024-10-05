@@ -4,26 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Random Songs</title>
+    <title>Random Music Selector</title>
 </head>
 <body>
     <script src="js/links.js"></script>
-    <main class="mainClass">
-        <a href="" id="songLink" target="_blank">
-            <button type="button">GO</button>
-        </a>
-        <script>
-            const contenedor = document.querySelector('.mainClass');
-            
-            let minVal = 0;
-            let maxVal = links.length;
-            let randnum = Math.floor(Math.random() * (maxVal - minVal + 1)) + minVal;
+    <main>
+        <div class="rowContainer">
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="euphoria">EUPHORIA</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="nostalgia">NOSTALGIA</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="sadness">SADNESS</button>
+                </a>
+            </div>                        
+        </div>
 
-            let linkk = 'https://www.youtube.com/watch?v=' + links[randnum];
+        <div class="rowContainer">
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="joy">JOY</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="dreaminess">DREAMINESS</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="calm">CALM</button>
+                </a>
+            </div>                        
+        </div>
 
-            let alink = document.getElementById("songLink") ;
-            alink.href = linkk;
-        </script>        
+        <div class="rowContainer">
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="anxiety">ANXIETY</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="triumph">TRIUMPH</button>
+                </a>
+            </div>
+            <div class="buttonContainer">
+                <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
+                    <button class="songButton" id="mindfulness">MINDFULNESS</button>
+                </a>
+            </div>                        
+        </div>    
     </main>
+
+    <script>
+        const minVal = 0;
+        const maxVal = triumph_links.length - 1;
+        let randnum = Math.floor(Math.random() * (maxVal - minVal + 1)) + minVal;
+        
+        const anchors = document.getElementsByClassName('songHyperlink');            
+        
+        links_list.forEach((songList, index) => {
+            anchors[index].href = 'https://www.youtube.com/watch?v=' + songList[randnum];            
+        });        
+    </script>
 </body>
 </html>
