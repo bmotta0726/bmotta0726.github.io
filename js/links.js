@@ -1,3 +1,5 @@
+/* ENGLISH SONGS*/
+
 const euphoria_links = [
     "X9_n8jakvWU",
     "VFTI3uMVCOk",
@@ -62,7 +64,74 @@ const mindfulness_links = [
     "1Ny1fjdLKew"
 ];
 
-const links_list = [
+
+/* SPANISH SONGS */
+
+const euphoria_links_es = [
+    "zyqt2avPkoA",
+    "HNmEWmv7fXo",
+    "sSg3S5FcTOY",
+    "lkdyTKiWYKg"
+]
+
+const nostalgia_links_es = [
+    "DVBgt4vYGPU",
+    "dOHaf91lHO4",
+    "R7IPxngsAPY",
+    "zRjGUSoXKQ",
+]
+
+const sadness_links_es = [
+    "aHFAXW840uM",
+    "fbqXGMXVgB8",
+    "jlySoaI0DGI",
+    "pWgVRK_Ggww"
+];
+
+const joy_links_es = [
+    "1EKNfHZ4JZo",
+    "in8rFQZsagQ",
+    "NlPAde6BWQ8",
+    "GuZzuQvv7uc"
+
+];
+
+const dreaminess_links_es = [
+    "AoUc6NlmXO0",
+    "AoUc6NlmXO0",
+    "AoUc6NlmXO0",
+    "AoUc6NlmXO0"
+];
+
+const calm_links_es = [
+    "xxhET61yB1A",
+    "t20F-0C7oIA",
+    "MkZ8MlUO_Dw",
+    "ntdwWKaGaPQ"
+];
+
+const anxiety_links_es = [
+    "kP6_nlTdPgI",
+    "tTZ18m4W3gY",
+    "wm-6tMw1YyA",
+    "JKOAtFW9xz8"
+];
+
+const triumph_links_es = [
+    "FvVoBFxtHC8",
+    "VCF98qWl1_4",
+    "TdeXKKoW8bo",
+    "Nu3qTEETFDw"
+];
+
+const mindfulness_links_es = [
+    "HNmEWmv7fXo",
+    "98Akpf1ph2o",
+    "9hrWj-IQyHs",
+    "DqKIs5vMu68"
+];
+
+const english_links = [
     euphoria_links,
     nostalgia_links,
     sadness_links,
@@ -72,4 +141,18 @@ const links_list = [
     anxiety_links,
     triumph_links,
     mindfulness_links
-]
+];
+
+const spanish_links = [
+    euphoria_links_es,
+    nostalgia_links_es,
+    sadness_links_es,
+    joy_links_es,
+    dreaminess_links_es,
+    calm_links_es,
+    anxiety_links_es,
+    triumph_links_es,
+    mindfulness_links_es
+];
+
+var links_list = english_links;

@@ -8,6 +8,15 @@
 </head>
 <body>
     <script src="js/links.js"></script>
+    <script src="js/language.js"></script>
+    
+
+    <header>
+        <label class="switch">
+            <input type="checkbox" id="langCheckbox" onclick="switchLang(), setSongsLanguage()">
+            <span class="slider round"></span>
+        </label>
+    </header>
     <main>
         <div class="rowContainer">
             <div class="buttonContainer">
@@ -64,7 +73,8 @@
         </div>    
     </main>
 
-    <script>
+    <script src="js/random.js"></script>
+    <!--<script>
         const minVal = 0;
         const maxVal = triumph_links.length - 1;
         let randnum = Math.floor(Math.random() * (maxVal - minVal + 1)) + minVal;
@@ -74,6 +84,6 @@
         links_list.forEach((songList, index) => {
             anchors[index].href = 'https://www.youtube.com/watch?v=' + songList[randnum];            
         });        
-    </script>
+    </script>-->
 </body>
 </html>
