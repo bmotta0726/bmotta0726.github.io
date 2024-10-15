@@ -139,18 +139,18 @@ const mindfulness_links = [
 /* SPANISH SONGS (duplicadas) */
 
 const euphoria_links_es = [
+    "9hrWj-IQyHs",
     "zyqt2avPkoA",
-    "HNmEWmv7fXo",
     "sSg3S5FcTOY",
     "lkdyTKiWYKg",
-    "zyqt2avPkoA",
-    "HNmEWmv7fXo",
-    "sSg3S5FcTOY",
-    "lkdyTKiWYKg",
-    "zyqt2avPkoA",
-    "HNmEWmv7fXo",
-    "sSg3S5FcTOY",
-    "lkdyTKiWYKg"
+    "qhtay3VMOUY",
+    "sxhfghgqnlE",
+    "2F26IgonnnI",
+    "x2A--MFSjs8",
+    "ELmt1I9TadM",
+    "L0QtC11fI3o",
+    "ID-iJOw9rLo",
+    "2PVi95J-FMo"
 ]
 
 const nostalgia_links_es = [
@@ -158,29 +158,29 @@ const nostalgia_links_es = [
     "dOHaf91lHO4",
     "R7IPxngsAPY",
     "zRjGUSoXKQ",
-    "DVBgt4vYGPU",
-    "dOHaf91lHO4",
-    "R7IPxngsAPY",
-    "zRjGUSoXKQ",
-    "DVBgt4vYGPU",
-    "dOHaf91lHO4",
-    "R7IPxngsAPY",
-    "zRjGUSoXKQ"
+    "pWgVRK_Ggww",
+    "LpKL7jMZ72E",
+    "4ZErRjmKY_w",
+    "kF_gUWZMnXw",
+    "JTg7PTmVcqU",
+    "uvEWuVrm1FU",
+    "b81kOviE7EI",
+    "Q4nC95SteAU"
 ]
 
 const sadness_links_es = [
     "aHFAXW840uM",
     "fbqXGMXVgB8",
     "jlySoaI0DGI",
-    "pWgVRK_Ggww",
-    "aHFAXW840uM",
-    "fbqXGMXVgB8",
-    "jlySoaI0DGI",
-    "pWgVRK_Ggww",
-    "aHFAXW840uM",
-    "fbqXGMXVgB8",
-    "jlySoaI0DGI",
-    "pWgVRK_Ggww"
+    "uTFefE6ViUQ",
+    "o6McFzsHAxo",
+    "xhhdIwOsC4E",
+    "wNKUxtV1VJE",
+    "lo3G6GYB9Zs",
+    "3pkWeWDn25I",
+    "NDkDMFoKHjg",
+    "XEiNWmS4FAI",
+    "rKvEr7dCWjQ"
 ];
 
 const joy_links_es = [
@@ -188,30 +188,29 @@ const joy_links_es = [
     "in8rFQZsagQ",
     "NlPAde6BWQ8",
     "GuZzuQvv7uc",
-    "1EKNfHZ4JZo",
-    "in8rFQZsagQ",
-    "NlPAde6BWQ8",
-    "GuZzuQvv7uc",
-    "1EKNfHZ4JZo",
-    "in8rFQZsagQ",
-    "NlPAde6BWQ8",
-    "GuZzuQvv7uc"
-
+    "v2J2xOhWg6g",
+    "6FbnPg0qa54",
+    "G9cEdIeY678",
+    "E-nSiMSEIyk",
+    "LCcM_DtDH4I",
+    "qgU-rmenGAg",
+    "gSCbndW7AFg",
+    "-zgDXIi1uYw"
 ];
 
 const dreaminess_links_es = [
     "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0",
-    "AoUc6NlmXO0"
+    "HNmEWmv7fXo",
+    "NUCZG09ehLM",
+    "wK_USczZeys",
+    "CEb99v79yRM",
+    "SDTCLbM9JdI",
+    "yKez26lvTqI",
+    "Pmp08j843p0",
+    "CvzkZ1ITN0c",
+    "6r3aDnnuda8",
+    "_X32PW-sYdA",
+    "pTNk7Tu9ivk"
 ];
 
 const calm_links_es = [
@@ -219,59 +218,59 @@ const calm_links_es = [
     "t20F-0C7oIA",
     "MkZ8MlUO_Dw",
     "ntdwWKaGaPQ",
-    "xxhET61yB1A",
-    "t20F-0C7oIA",
-    "MkZ8MlUO_Dw",
-    "ntdwWKaGaPQ",
-    "xxhET61yB1A",
-    "t20F-0C7oIA",
-    "MkZ8MlUO_Dw",
-    "ntdwWKaGaPQ"
+    "V5YlmuZjvws",
+    "GFpBkyE8TDs",
+    "UCF9oHXhDMU",
+    "_XPE_5L-Pls",
+    "6JlyX_BAnOM",
+    "dRX7U6qHNO0",
+    "6MYVzBAGXJ0",
+    "VjWY3n9Xt5g"
 ];
 
 const anxiety_links_es = [
     "kP6_nlTdPgI",
     "tTZ18m4W3gY",
     "wm-6tMw1YyA",
-    "JKOAtFW9xz8",
-    "kP6_nlTdPgI",
-    "tTZ18m4W3gY",
-    "wm-6tMw1YyA",
-    "JKOAtFW9xz8",
-    "kP6_nlTdPgI",
-    "tTZ18m4W3gY",
-    "wm-6tMw1YyA",
-    "JKOAtFW9xz8"
+    "fGKQPZhqTnQ",
+    "9ixzeeMvKf4",
+    "3trbXHMyxEY",
+    "vIXPTVejHs4",
+    "7pRE2ATdWaU",
+    "AhtbVyG3wDk",
+    "NmOzp8bEfO8",
+    "EU0LljxpHIk",
+    "0MtE1lm-KYQ"
 ];
 
 const triumph_links_es = [
     "FvVoBFxtHC8",
     "VCF98qWl1_4",
-    "TdeXKKoW8bo",
     "Nu3qTEETFDw",
-    "FvVoBFxtHC8",
-    "VCF98qWl1_4",
-    "TdeXKKoW8bo",
-    "Nu3qTEETFDw",
-    "FvVoBFxtHC8",
-    "VCF98qWl1_4",
-    "TdeXKKoW8bo",
-    "Nu3qTEETFDw"
+    "IhTOKqwXgzQ",
+    "kMNPv_HXffQ",
+    "F5-oCyBQW8k",
+    "xNgTMDRoa60",
+    "B0sRLlfqklQ",
+    "cyblSDoRRxg",
+    "s0MG5mdwweU",
+    "BF61BPPBdsQ",
+    "TdeXKKoW8bo"
 ];
 
 const mindfulness_links_es = [
-    "HNmEWmv7fXo",
+    "CnA7hXF32Uc",
     "98Akpf1ph2o",
-    "9hrWj-IQyHs",
-    "DqKIs5vMu68",
-    "HNmEWmv7fXo",
-    "98Akpf1ph2o",
-    "9hrWj-IQyHs",
-    "DqKIs5vMu68",
-    "HNmEWmv7fXo",
-    "98Akpf1ph2o",
-    "9hrWj-IQyHs",
-    "DqKIs5vMu68"
+    "S_roMeig-YQ",
+    "TLPn_-KqK5c",
+    "FBiVUU6QLpk",
+    "4jjeKWrGhxM",
+    "BQAKKp6ziD0",
+    "6Gfdm2E1XZY",
+    "mgkV9fUeVo8",
+    "FNIh1-RfG6g",
+    "knvgOdKPaMQ",
+    "ke9M_kr9xUU"
 ];
 
 const english_links = [

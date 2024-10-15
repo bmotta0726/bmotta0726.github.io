@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Fjalla+One&family=Permanent+Marker&family=Comfortaa&family=Gloock&display=swap" rel="stylesheet">
     <title>Random Music Selector</title>
 </head>
 <body>
     <script src="js/links.js"></script>
     <script src="js/language.js"></script>
+    <script src="js/refresher.js"></script>
     
-
     <header>
-        <label class="switch">
-            <input type="checkbox" id="langCheckbox" onclick="switchLang(), setSongsLanguage()">
-            <span class="slider round"></span>
-        </label>
+        <div class="header-container">
+            <div class="switch-container">
+                <label class="switch">
+                    <input type="checkbox" id="langCheckbox" onclick="switchLang(), setSongsLanguage(randnum)">
+                    <span class="slider round"></span>
+                </label>
+                <p id="lang-tag">ENG</p>
+            </div>
+            <div class="refresh-button-container">
+                <button onclick="refreshSongs(randnum)" id="refresh-button">
+                    <img src="images/refresh.jpg" alt="button-picture" id="refresh-picture">            
+                </button>
+            </div>            
+        </div>        
     </header>
     <main>
-        <div class="rowContainer">
+        <div class="rowContainer" id="rc-1">
             <div class="buttonContainer">
                 <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
                     <button class="songButton" id="euphoria">EUPHORIA</button>
@@ -36,7 +49,7 @@
             </div>                        
         </div>
 
-        <div class="rowContainer">
+        <div class="rowContainer" id="rc-2">
             <div class="buttonContainer">
                 <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
                     <button class="songButton" id="joy">JOY</button>
@@ -55,7 +68,7 @@
         </div>
 
         <div class="rowContainer">
-            <div class="buttonContainer">
+            <div class="buttonContainer" id="rc-3">
                 <a href="https://www.youtube.com/watch?v=" target="_blank" class="songHyperlink">
                     <button class="songButton" id="anxiety">ANXIETY</button>
                 </a>
@@ -74,16 +87,6 @@
     </main>
 
     <script src="js/random.js"></script>
-    <!--<script>
-        const minVal = 0;
-        const maxVal = triumph_links.length - 1;
-        let randnum = Math.floor(Math.random() * (maxVal - minVal + 1)) + minVal;
-        
-        const anchors = document.getElementsByClassName('songHyperlink');            
-        
-        links_list.forEach((songList, index) => {
-            anchors[index].href = 'https://www.youtube.com/watch?v=' + songList[randnum];            
-        });        
-    </script>-->
+
 </body>
 </html>

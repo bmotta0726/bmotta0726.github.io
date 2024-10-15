@@ -26,13 +26,17 @@ function switchLang(){
 
     var checkBox = document.getElementById('langCheckbox');
     //var myid = document.getElementById('euphoria');
-    var songButtons = document.getElementsByClassName('songButton')
+    var songButtons = document.getElementsByClassName('songButton');
+
+    var langTag = document.getElementById('lang-tag');
     
     if(checkBox.checked == true){        
+        langTag.textContent = 'ESP';
         spanish_names.forEach((name, index) => {
             songButtons[index].textContent = name;            
         })    
     }else{
+        langTag.textContent = 'ENG';
         english_names.forEach((name, index) => {
             songButtons[index].textContent = name;            
         })        

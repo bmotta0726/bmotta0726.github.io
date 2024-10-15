@@ -64,6 +64,10 @@ input:checked + .slider:before {
     margin: 20px;
 }
 
+#rc-1 {
+    margin: 15px 0px 20px 0px;
+}
+
 .rowContainer {
     display: flex;
     justify-content: space-evenly;
@@ -89,12 +93,12 @@ input:checked + .slider:before {
 }
 
 #euphoria {
-    background-color: rgb(214, 142, 47);
+    background-color: rgb(230, 125, 80);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #euphoria:hover {
-    background-color: rgb(180, 93, 27);
+    background-color: rgb(214, 55, 6);
 }
 
 #nostalgia {
@@ -110,9 +114,9 @@ input:checked + .slider:before {
 }
 
 #sadness {
-    background-color: rgb(10, 10, 97);
+    background-color: rgb(1, 1, 82);
     font-size: 60px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   
+    font-family: 'Fjalla One', 'Pathway Gothic One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #sadness:hover {
@@ -121,32 +125,31 @@ input:checked + .slider:before {
 }
 
 #joy {
-    background-color: rgb(224, 215, 51);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(244, 235, 67);
+    font-family: 'Permanent Marker', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 76px;
+    color: black;
 }
 
 #joy:hover {
-    background-color: rgb(180, 185, 12);
+    background-color: rgb(255, 242, 0);
     /*background-color: rgb(2, 79, 79);**/
 }
 
 #dreaminess {
-    background-color: rgb(227, 158, 190);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color: rgb(242, 171, 187);
+    font-family: 'Pathway Gothic One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 60px;
 }
 
 #dreaminess:hover {
-    background-color: rgb(201, 74, 172);
+    background-color: rgb(201, 74, 114);
 }
 
 #calm {
     background-color: teal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 76px;
-
-    /*background-color: rgb(228, 189, 235);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: 'Comfortaa', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 66px
 }
 
 #calm:hover {
@@ -154,7 +157,7 @@ input:checked + .slider:before {
 }
 
 #anxiety {
-    background-color: rgb(1, 24, 1);
+    background-color: rgb(2, 37, 2);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -164,7 +167,7 @@ input:checked + .slider:before {
 
 #triumph {
     background-color: rgb(216, 156, 15);
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Gloock', 'Times New Roman', sans-serif;
 }
 
 #triumph:hover {
@@ -180,4 +183,31 @@ input:checked + .slider:before {
 
 #mindfulness:hover {
     background-color: rgb(112, 208, 114);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#refresh-picture {
+    height: 40px;
+    width: 40px;
+}
+
+#refresh-button {
+    background-color: white;
+    border-color: white;
+}
+
+.switch-container {
+    display: flex;
+    justify-content: start;
+}
+
+#lang-tag {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    margin: 8px 10px 0px;
 }
